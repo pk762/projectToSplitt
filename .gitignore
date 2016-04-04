@@ -1,0 +1,44 @@
+# Vim files.
+*~
+
+# Eclipse files.
+.checkstyle
+.classpath
+.project
+.settings
+.metadata
+.recommenders
+bin
+
+# Gradle files.
+.gradle
+build
+
+# Mac OS X specific file.
+.DS_Store
+
+# ESF test output.
+test-output
+
+# ESF files when running tests from within Eclipse.
+log/
+config.properties
+esf-epages6/conf/parameters.conf
+esf-epages-projects/conf/parameters.conf
+esf-epages-unity/conf/parameters.conf
+
+# ESF files when manually building the documentation.
+doc/
+
+# IntelliJ Files
+*.iml
+.idea/
+
+# Sed files.
+*-e
+
+esf-epages-unity/conf/parameters.conf
+
+# linux
+daemon
+
