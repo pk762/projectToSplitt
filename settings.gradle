@@ -1,7 +1,6 @@
 rootProject.name = 'projectToSplitt'
 
 include 'mainProject'
-include 'projectWithChanges'
 
 rootProject.children.each { project ->
     project.buildFileName = "${project.name}.gradle"
