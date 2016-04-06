@@ -37,3 +37,8 @@ subprojects {
 
     defaultTasks 'build'
 }
+
+// The Gradle Wrapper.
+wrapper {
+    gradleVersion = '2.4'
+}
